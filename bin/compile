@@ -223,7 +223,7 @@ fi
 ########## project build ###########################################
 
 cd $WORKING_HOME
-cabal sandbox init
+cabal sandbox init --sandbox $WORKING_HOME/.cabal
 
 cd $BUILD_DIR
 cabal sandbox init --sandbox $WORKING_HOME/.cabal-sandbox
