@@ -5,7 +5,7 @@ set -e            # fail fast
 set -o pipefail   # do not ignore exit codes when piping output
 
 # Debug mode
-set -x
+# set -x
 
 # Heroku-provided params
 BUILD_DIR="$1"
