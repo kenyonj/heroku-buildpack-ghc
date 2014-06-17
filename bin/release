@@ -6,10 +6,6 @@ BUILD_DIR=$1
 cat <<EOF
 ---
 config_vars:
-  GHC_PACKAGE_PATH: "$BUILD_DIR/ghc-packages.conf:"
-  GHCRTS: "-M512m -c70 -H128m"
-  GHC_VERSION: 7.4.1
-  BUILDPACK_GHC_BASE_URL: "http://www.haskell.org/ghc/dist/"
 addons:
 default_process_types:
 EOF
